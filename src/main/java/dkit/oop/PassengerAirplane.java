@@ -21,7 +21,7 @@ public class PassengerAirplane extends Airplane {
 
     public void addPassenger(String name) {
         // code here
-        if(this.MAX_NUM_PASSENGERS <MAX_NUM_PASSENGERS)
+        if(this.MAX_NUM_PASSENGERS < MAX_NUM_PASSENGERS)
         passengerList.add(name);
 
     }

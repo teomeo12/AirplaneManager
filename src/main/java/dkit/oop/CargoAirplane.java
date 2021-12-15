@@ -6,8 +6,8 @@ public class CargoAirplane extends Airplane {
     private final int MAX_LOAD_KILOS;
 
 
-
     public CargoAirplane(String type, int MAX_LOAD_KILOS) {
+        //super(type);
         super(type);
         this.MAX_LOAD_KILOS = MAX_LOAD_KILOS;
     }
