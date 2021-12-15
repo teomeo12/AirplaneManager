@@ -24,6 +24,9 @@ public class AirplaneManager {
     //Q3.
 
     // write add() method
+    public void addAirplane(Airplane airplane){
+        airplaneList.add(airplane);
+    }
 
 
     public void displayAllAirplanes() {

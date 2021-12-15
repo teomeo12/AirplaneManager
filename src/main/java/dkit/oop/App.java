@@ -18,20 +18,27 @@ public class App
         System.out.println("OOP - CA2 - 20% - December 2021 - AirplaneManager");
 
         //Q2
-        // CargoAirplane cargoPlane1 = new CargoAirplane("Douglas DC-4",20000);
-        // CargoAirplane cargoPlane2 = new CargoAirplane("Boeing C-7000",25000);
+         CargoAirplane cargoPlane1 = new CargoAirplane("Douglas DC-4",20000);
+         CargoAirplane cargoPlane2 = new CargoAirplane("Boeing C-7000",25000);
 
         // display the two objects
+        System.out.println("\n***  Displaying CargoAirplane objects   ***\n");
+        System.out.println(cargoPlane1);
+        System.out.println(cargoPlane2);
 
         AirplaneManager mgr = new AirplaneManager();
 
         //Q2
-//         PassengerAirplane passengerPlane1 = new PassengerAirplane("Boeing 747",524);
-//         PassengerAirplane passengerPlane2 = new PassengerAirplane("Airbus 380",525);
-//         //Add passengers to Passenger planes
-//         passengerPlane1.addPassenger("Tom Hardy");
-//         passengerPlane1.addPassenger("Margot Robbie");
-//         passengerPlane2.addPassenger("Emma Thompson");
+         PassengerAirplane passengerPlane1 = new PassengerAirplane("Boeing 747",524);
+         PassengerAirplane passengerPlane2 = new PassengerAirplane("Airbus 380",525);
+         //Add passengers to Passenger planes
+         passengerPlane1.addPassenger("Tom Hardy");
+         passengerPlane1.addPassenger("Margot Robbie");
+         passengerPlane2.addPassenger("Emma Thompson");
+
+        System.out.println("\n***  Displaying PassengerAirplane objects   ***\n");
+        System.out.println(passengerPlane1);
+        System.out.println(passengerPlane2);
 
         //Q3
 
